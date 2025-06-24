@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Pretendard';
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header 부분 */
+#header_wrap{
+    width: 100%;
+    border-bottom: 2px solid #842e49;
+}
+
+.header{
+    width: 1320px;
+    height: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo{
+    align-content: center;
+    display: inline-block;
+    width: 240px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.logo>img{
+    width: 100%;
+}
+
+/* detail_page 부분 */
+
+.detail_page{
+    width: 1320px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.detail_page_img_wrap{
+    width: 600px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.detail_page_img_wrap>img{
+    width: 100%;
+}
+
+.page_information_buy{
+    position: sticky;
+    top: 60px;
+    right: 0;
+    margin: 50px 0px;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    border: 1px solid #666;
+}
+
+.body_wash_name{
+    padding-bottom: 30px;
+}
+
+.money_information{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.discount{
+    display: block;
+    font-size: 26px;
+    color: #FF0000;
+    font-weight: 700;
+}
+
+.before_after_box{
+    display: flex;
+    align-items: center;
+}
+
+.before{
+    font-size: 16px;
+    font-weight: 700;
+    color: gray;
+    text-decoration-line: line-through;
+    padding-right: 10px;
+}
+
+.after{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content_box{
+    border: 1px solid #9c9c9c;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 42px 0px;
+}
+
+.event{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.coupon_bth{
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+
+.coupon_bth:hover{
+    background-color: #842e49;
+    
+}
+
+.point{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.mid_content_box{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border: 1px solid #666;
+    align-items: end;
+}
+
+.mid_content_box:nth-child(1){
+    margin-bottom: 20px;
+}
+
+.bth{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bth_1{
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    align-content: center;
+}
+
+.bth_1:hover{
+    background-color: #666;
+    color: #000;
+}
+
+.bth_2{
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #842e49;
+   
+}
+
+.bth_2:hover{
+   background-color: #c45477;
+}
